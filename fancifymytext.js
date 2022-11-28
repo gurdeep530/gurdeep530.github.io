@@ -12,7 +12,7 @@ document.getElementsByName("fancify")[1].addEventListener("change",function(){
     textarea.style.fontWeight="normal";
     textarea.style.color="black";
     textarea.style.textDecoration="none"
-    alert("styles removed from the text area");
+    alert("Hello, World!");
 })
 function makeMoo(){
     textarea.style.textTransform="uppercase"
