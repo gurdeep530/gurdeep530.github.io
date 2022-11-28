@@ -6,7 +6,7 @@ document.getElementsByName("fancify")[0].addEventListener("change",function(){
     textarea.style.fontWeight="bold";
     textarea.style.color="blue";
     textarea.style.textDecoration="underline"
-    alert("styles added to the text area");
+    alert("Hello, World!");
 })
 document.getElementsByName("fancify")[1].addEventListener("change",function(){
     textarea.style.fontWeight="normal";
