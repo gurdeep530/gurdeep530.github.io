@@ -1,0 +1,147 @@
+@media screen and (max-width: 1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #experience, .experience-details-container{
+        margin-top: 2rem;
+    }
+    #profile, .section-container{
+        display: block;
+    }
+    .arrow-icon{
+        display: none;
+    }
+    section{
+        margin: 0.5%;
+    }
+    .section_pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers{
+        margin-top: 0;
+    }
+    .snake-game {
+    max-width: 100%;
+    height: auto;
+}
+}
+@media screen and (max-width: 600px){
+    #contact, footer{
+        height: 40vh;
+    }
+    #profile{
+        height: 83vh;
+        margin-bottom: 2rem;
+    }
+    .about-containers,.contact-info-upper-container,.btn-container{
+        flex-wrap: wrap;
+    }
+    .container-info-container{
+        margin: 0;
+    }
+    .contact-info-container p, .nav-links li a{
+        font-size: 1rem;
+    }
+    .experience-sub-title{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section_pic-container{
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    .section_text_p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .text-container{
+        text-align: justify;
+        font-size: .65rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    nav {
+        height: 10vh;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: block;
+    }
+
+    section {
+        margin: 0 1rem 2rem 1rem; /* Reduced bottom margin for mobile */
+        padding-top: 2vh;
+        min-height: auto; /* Allow content to dictate height on mobile */
+    }
+
+    #profile {
+        gap: 1.5rem;
+        min-height: auto; /* Allow natural height */
+    }
+
+    .section-container {
+        gap: 1rem;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .details-container {
+        padding: 0.8rem;
+    }
+
+    .game-canvas {
+        max-width: 90vw;
+    }
+
+    .article-container {
+        gap: 1rem;
+    }
+
+    article {
+        width: clamp(7rem, 22vw, 8rem);
+    }
+
+    .contact-info-upper-container {
+        flex-direction: column;
+        padding: 0.8rem;
+    }
+
+    #contact {
+        min-height: auto; /* Allow natural height */
+    }
+
+    footer {
+        height: auto;
+    }
+}
